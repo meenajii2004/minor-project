@@ -18,11 +18,26 @@ const Header = ({ toggleSidebar }) => {
         >
           <IoMenu size={30} />
         </IconButton>
-
         {/* Header Title */}
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          Hotel Finder
+          StayScape
         </Typography>
+
+        {/* <Button
+          component={Link}
+          to="/login"
+          variant="outlined"
+          color="inherit"
+          sx={{
+            color: "#fff",
+            borderColor: "#fff",
+            "&:hover": {
+              borderColor: "#ccc",
+            },
+          }}
+        >
+          Login / Signup
+        </Button> */}
       </Toolbar>
     </AppBar>
   );
